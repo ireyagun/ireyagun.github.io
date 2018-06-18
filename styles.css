@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
+*{
+	padding: 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+ display: block;
+} 
+
+body {
+	/*font-family: helvetica,verdana,arial,sans-serif;*/
+	/*para IE es necesariio envolver la pagina con un ancho y text-align: center */
+	width: 960px;
+	text-align: center;
+	background: #AAA;
+	margin: 0 auto;
+	
+}
+
+main{
+	/* volvemos a poner la alineación normal*/
+	text-align: left;
+	width: 960px; 
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav{
+	width: 960px; 
+	height: 80px;
+	margin: 0 auto;
+	/*padding: 100px;*/
+	/*background: orange;*/
+}
+
+.icono{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+a:hover, a:visited, a:link, a:active{
+	color:#AAA;
+}
+
+/* ############## INFOBAR ############### */
+
+#infobar {
+	float: left;
+	width: 330px;
+	height: 1500px;
+	background: #425370;
+	text-align:center;
+	color:#FFF;
+	margin: 0 auto;
+}
+
+#infobar #cabecera{
+	margin: 0 auto;
+	text-align:center;
+}
+
+#infobar #foto{
+	margin-top:40px;
+}
+
+#infobar #nombre{
+	color:#FFF;
+	font-size:28px;
+}
+	
+#infobar #posicion{
+	margin-top:7px;
+	color:#AAA;
+	font-size:16px;
+}
+
+#infobar .apartado{
+	margin-top:50px;
+	margin-left:25px;
+	
+	text-align:left;
+}
+
+#infobar  h1{
+	font-size:28px;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+#infobar  h2{
+	font-size:16px;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+#infobar  h3{
+	font-size:28px;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+#infobar div ul{
+	font-size:16px;
+	margin-top:5px;
+	margin-left:25px;
+	color:#AAA;
+	list-style-image:url(images/punto.png);
+}
+
+#infobar div li{
+	margin-top:2px;
+}
+
+#infobar #contacto ul li{
+	margin-top: 15px;
+}
+
+#infobar #contacto ul #telefono{
+	list-style-image:url(images/movil22.png);
+}
+
+#infobar #contacto ul #correo{
+	list-style-image:url(images/arroba22.png);
+}
+
+#infobar #contacto ul #web{
+	list-style-image:url(images/monitor22.png);
+}
+
+#infobar #contacto ul #linkedin{
+	list-style-image:url(images/linkedin22.png);
+}
+
+#infobar #contacto ul #direccion{
+	list-style-image:url(images/marcador22.png);
+}
+
+#infobar footer{
+	color:#AAA;
+	margin-top:180px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+/* ############## CONTENIDO ############### */
+
+#contenido {
+	float: left;
+	width: 630px;
+	height: 1500px;
+	color: #43546f;
+	background: #FFF;
+}
+
+#contenido #slogan{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	text-align: justify;
+    text-justify: inter-word;
+	margin: 20px;
+	line-height: 1.2;
+}
+
+#contenido .seccion{
+	margin: 20px;
+	/*background:#399;*/
+}
+
+
+#contenido a:hover, #contenido a:visited, #contenido a:link,#contenido  a:active{
+	/*background-color: yellow;*/
+	color:#43546f;
+}
+
+#contenido header{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	
+}
+
+#contenido h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+#contenido h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+#contenido h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+.anio{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	width: 110px;
+}
+
+.puesto{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+	width: 520px;
+}
+
+.proyectos{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.f_aca{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#table_f_com{
+	width: 580px;
+	border: 0;
+}
+
+#table_f_com .curso{
+	text-align:left;
+}
+
+
+#table_f_com .datos_curso{
+	text-align:right;
+}
+
+#contenido article ul{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	margin-top: 0px;
+	font-size: 16px;
+	list-style-type: none;
+}
+
+#pie{
+	width: 960px; 
+	height: 80px;
+	margin: 0 auto;
+	/*padding: 100px;*/
+	background: #AAA;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	margin-top: 0px;
+	font-size: 40px;
+	color:black;
+	
+}
+#pie a:hover, #pie a:visited, #pie a:link, #pie a:active{
+	text-decoration: none;
+	/*background-color: yellow;*/
+	color:black;
+}
