@@ -8,7 +8,7 @@
 
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
- display: block;
+ 	display: block;
 } 
 
 body {
@@ -51,7 +51,7 @@ a:hover, a:visited, a:link, a:active{
 #infobar {
 	float: left;
 	width: 330px;
-	height: 1500px;
+	height: 1460px;
 	background: #425370;
 	text-align:center;
 	color:#FFF;
@@ -141,7 +141,7 @@ a:hover, a:visited, a:link, a:active{
 
 #infobar footer{
 	color:#AAA;
-	margin-top:180px;
+	margin-top:150px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -152,7 +152,7 @@ a:hover, a:visited, a:link, a:active{
 #contenido {
 	float: left;
 	width: 630px;
-	height: 1500px;
+	height: 1460px;
 	color: #43546f;
 	background: #FFF;
 }
