@@ -51,7 +51,7 @@ a:hover, a:visited, a:link, a:active{
 #infobar {
 	float: left;
 	width: 330px;
-	height: 1460px;
+	height: 1400px;
 	background: #425370;
 	text-align:center;
 	color:#FFF;
@@ -141,7 +141,7 @@ a:hover, a:visited, a:link, a:active{
 
 #infobar footer{
 	color:#AAA;
-	margin-top:150px;
+	margin-top:100px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -152,7 +152,7 @@ a:hover, a:visited, a:link, a:active{
 #contenido {
 	float: left;
 	width: 630px;
-	height: 1460px;
+	height: 1400px;
 	color: #43546f;
 	background: #FFF;
 }
@@ -222,7 +222,7 @@ a:hover, a:visited, a:link, a:active{
 	font-weight: 300;
 	font-size: 17px;
 	font-weight: bold;
-	font-style: italic;
+	
 	width: 520px;
 }
 
