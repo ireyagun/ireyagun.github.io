@@ -222,9 +222,17 @@ a:hover, a:visited, a:link, a:active{
 	font-weight: 300;
 	font-size: 17px;
 	font-weight: bold;
-	
 	width: 520px;
 }
+
+.subpuesto{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	font-weight: bold;
+	width: 520px;
+}
+
 
 .proyectos{
 	font-family: 'Ubuntu', sans-serif;
